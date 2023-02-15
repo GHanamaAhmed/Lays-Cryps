@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <header className="flex justify-between px-10 py-2 md:py-5 w-full md:justify-around items-center relative">
             <a href="#"><img src="./icons/Logo.png" alt="" /></a>
-            <ul className="hidden md:flex gap-x-10">
+            <ul className="hidden md:flex md:gap-2 lg:gap-x-10">
                 <li>Products</li>
                 <li>About Us</li>
                 <li>Videos</li>
@@ -18,7 +18,7 @@ export default function Header() {
                 <img className="absolute top-1/2 left-2 -translate-y-1/2" src="./icons/Vector.svg" alt="" />
             </div>
             <button className="hidden md:block bg-zinc-900 rounded-full p-3">
-                <img src="./icons/Group.svg" alt="" />
+                <img src="./icons/Group.svg" height={20} width={20} alt="" />
             </button>
             <button className="hidden md:block py-2 px-5 bg-zinc-900 rounded-md text-slate-100">Sign up</button>   
             <Menu/>

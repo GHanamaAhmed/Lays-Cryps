@@ -13,7 +13,7 @@ export default function Lays() {
       <Card background={"bg-blue-50"} union={"./icons/Intersect-1.png"} lays={"./icons/image29.png"} />
       <Card background={"bg-yellow-100"} union={"./icons/Intersect-5.png"} lays={"./icons/image27.png"} />
       <Card background={"bg-pink-50"} union={"./icons/Intersect.png"} lays={"./icons/image28.png"} />
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center md:col-span-3 items-center">
             <button className="py-2 px-4 text-slate-100 bg-zinc-900 rounded-lg mt-4">All Crisps</button>
       </div>
     </div>
